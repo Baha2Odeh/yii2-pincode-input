@@ -13,14 +13,13 @@ use yii\web\AssetBundle;
 class PinCodeInputAsset extends AssetBundle
 {
     /** @var string */
-    public $sourcePath = '@bower/intl-tel-input';
+    public $sourcePath = '@bower/bootstrap-pincode-input';
     /** @var array */
-    public $css = ['build/css/intlTelInput.css'];
+    public $css = ['css/bootstrap-pincode-input.css'];
     /** @var array */
     public $js = [
-        'build/js/utils.js',
-        'build/js/intlTelInput.min.js',
+        'js/bootstrap-pincode-input.js',
     ];
     /** @var array */
-    public $depends = ['yii\web\JqueryAsset'];
+    public $depends = ['yii\bootstrap\BootstrapAsset'];
 }
