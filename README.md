@@ -28,4 +28,26 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \Baha2Odeh\PincodeInput\AutoloadExample::widget(); ?>```
+<?php \Baha2Odeh\PincodeInput\PinCodeInput::widget([
+                                'model' => $model,
+                                'attribute' => 'pincode',
+                                'jsOptions' => [
+                                    'hidedigits'=>false,
+                                    'inputs'=>4
+                                ],
+                            
+                            ]) ?>
+```                            
+                            
+```php
+<?= $form->field($model, 'pincode')->widget(\Baha2Odeh\PincodeInput\PinCodeInput::className(), [
+                                'jsOptions' => [
+                                    'hidedigits'=>false,
+                                    'inputs'=>4
+                                ],
+                            ])->label(false) ?>
+```
+
+JsOPtions
+---------
+http://fkranenburg.github.io/bootstrap-pincode-input/
