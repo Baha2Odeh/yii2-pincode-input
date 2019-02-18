@@ -1,0 +1,21 @@
+{
+    "name": "baha2odeh/yii2-pincode-input",
+    "description": "Yii2 Bootstrap Pincode Input",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","pincode input "," bootstrap-pincode-input"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Bahaa Odeh",
+            "email": "bw4@hotmail.it"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Baha2Odeh\\PincodeInput\\": ""
+        }
+    }
+}
