@@ -2,7 +2,9 @@
 
 namespace Baha2Odeh\PincodeInput;
 use yii\widgets\InputWidget;
-
+use yii\helpers\ArrayHelper;
+use yii\helpers\Json;
+use \yii\bootstrap\Html;
 /**
  * This is just an example.
  */
