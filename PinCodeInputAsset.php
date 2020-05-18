@@ -23,6 +23,6 @@ class PinCodeInputAsset extends AssetBundle
     /** @var array */
     public $depends = [
         'yii\web\JqueryAsset',
-        'yii\bootstrap\BootstrapAsset',
+        'yii\bootstrap4\BootstrapAsset',
     ];
 }
