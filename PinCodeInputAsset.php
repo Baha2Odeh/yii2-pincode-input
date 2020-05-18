@@ -21,5 +21,8 @@ class PinCodeInputAsset extends AssetBundle
         'js/bootstrap-pincode-input.js',
     ];
     /** @var array */
-    public $depends = ['yii\bootstrap\BootstrapAsset'];
+    public $depends = [
+        'yii\web\JqueryAsset',
+        'yii\bootstrap\BootstrapAsset',
+    ];
 }
