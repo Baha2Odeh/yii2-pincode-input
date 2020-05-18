@@ -19,6 +19,12 @@ or add
 "baha2odeh/yii2-pincode-input": "*"
 ```
 
+for bootstrap 4
+```
+"baha2odeh/yii2-pincode-input": "dev-bs4"
+```
+
+
 to the require section of your `composer.json` file.
 
 
@@ -28,7 +34,7 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?php \Baha2Odeh\PincodeInput\PinCodeInput::widget([
+<?= \Baha2Odeh\PincodeInput\PinCodeInput::widget([
                                 'model' => $model,
                                 'attribute' => 'pincode',
                                 'jsOptions' => [
